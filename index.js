@@ -17,6 +17,9 @@ app.get('/catfact', async (req, res) => {
   }
 });
 
+console.log('Servidor actualizado con GitHub Actions ✔️');
+
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
